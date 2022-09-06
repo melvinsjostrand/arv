@@ -1,0 +1,5 @@
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\arv.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\arv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\arv.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\arv.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\arv.csproj.CoreCompileInputs.cache
