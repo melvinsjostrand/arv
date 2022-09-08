@@ -10,7 +10,17 @@ using System.Threading.Tasks;
 
     public Rectangle(float width, float height): base(width,height)
     {
+        
+
     }
+    public float R(){
+       float ra = width * height;
+       return ra;
+    }
+    public float Ro(){
+    float ro = ((width * 2) + (height * 2));
+    return ro;
+}
     }
 
     

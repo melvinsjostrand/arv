@@ -7,18 +7,21 @@ protected float width;
 protected float height;
 
 
-public Shape{
+public Shape(float width, float height){
 
-width = 10;
-height = 20;
+
+
+this.width = width;
+this.height = height;
+
+
+
+}
 
 
 
 }
 
-
-
-}
 
 
 
