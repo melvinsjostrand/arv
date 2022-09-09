@@ -17,7 +17,7 @@ public class program{
             float width = float.Parse(Console.ReadLine());
             Console.WriteLine("skriv in höjden:");
             float Height = float.Parse(Console.ReadLine());
-            triangle triangle = new triangle(width, Height);
+            triangle triangle = new triangle(width, Height);  
             Console.WriteLine("Arean av Triangle = " + triangle.T());
             Console.WriteLine("Omkretsen är =" + triangle.TO());
             Console.WriteLine();
