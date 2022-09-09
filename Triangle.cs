@@ -18,6 +18,11 @@ public float T(){
     return ta;
 }
 
+public float TO(){
+    float TO = (width + height + (float)Math.Sqrt((double)(width * width) + (double)(height * height)));
+    return TO;
+}
+
 }
 
 
