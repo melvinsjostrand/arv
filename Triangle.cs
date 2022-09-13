@@ -23,6 +23,14 @@ public float TO(){
     return TO;
 }
 
+
+public float TOA(){
+    float TOA = (width + height + height);
+    return TOA;
 }
 
-
+public float TOO(){
+    float TOO = (width + width + width);
+    return TOO;
+}
+}
