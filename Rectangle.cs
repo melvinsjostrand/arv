@@ -22,7 +22,17 @@ using System.Threading.Tasks;
     return ro;
 }
 
+public float ROA(){
+    float ROA = (width + width + width + width);
+    return ROA;
 
+
+}
+
+public float ROC(){
+    float ROC = width * width;
+    return ROC;
+}
 
 }
 

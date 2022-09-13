@@ -4,81 +4,110 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-public class program{
-   
-   
-   
-   
-   
-   
-    public static void Main(){
+public class program
+{
 
 
-            
 
 
-int val = 1;
 
-            while(val !=0)
+
+    public static void Main()
+    {
+
+
+
+
+
+        int val = 1;
+
+        while (val != 0)
+        {
+
+
+            Console.WriteLine("Vill du göra en rectangle,kvadrat, rätviklig eller en liksidig triangle");
+
+            val = int.Parse(Console.ReadLine());
+
+            if (val == 1)
             {
-
-
+                Console.WriteLine("rectangle");
                 Console.WriteLine("vilken width");
                 float width = float.Parse(Console.ReadLine());
                 Console.WriteLine("vilken Height");
                 float height = float.Parse(Console.ReadLine());
-                    triangle triangle = new triangle(width, height); 
-                    Rectangle rectangle = new Rectangle(width, height);
+                Rectangle rectangle = new Rectangle(width, height);
+                Console.WriteLine("Omkretsen är =" + rectangle.Ro());
+                Console.WriteLine($"Arean på rectanglen är {rectangle.R()}");
 
 
 
-Console.WriteLine("är de triangle elr rectangle");
 
-val = int.Parse(Console.ReadLine());
-            if (val == 1){
-            Console.WriteLine("Arean av Triangle = " + triangle.T());
-            Console.WriteLine("Omkretsen är =" + triangle.TO());
-int val2 = 1;
-
-while(val2 !=0){
+            }
 
 
-Console.WriteLine("Skriv 1 om den är rätvinklig och 2 om den inte är de");
-val2 = int.Parse(Console.ReadLine());
 
-if ( val2 == 1){
-    Console.WriteLine("den är rätvinklig WPWPWPWPWP");
+            else if (val == 2)
+            {
+                Console.WriteLine("kvadrat");
+                Console.WriteLine("Vad är längden på sidan?");
+                float width = float.Parse(Console.ReadLine());
+                Rectangle rectangle = new Rectangle(width, width);
+                Console.WriteLine("Omkretsen är =" + rectangle.ROA());
+                Console.WriteLine($"Arean på rectanglen är {rectangle.ROC()}");
+            }
 
-}
-else ( val2 == 2){
-    Console.WriteLine("Den är inte rätvikling WPWPWPWWPWPWP");
-}
-}
+
+
+            else if (val == 3)
+            {
+
+                Console.WriteLine("Rätviklig");
+                Console.WriteLine("vilken width");
+                float width = float.Parse(Console.ReadLine());
+                Console.WriteLine("vilken Height");
+                float height = float.Parse(Console.ReadLine());
+                triangle triangle = new triangle(width, height);
+                Console.WriteLine("Arean av Triangle = " + triangle.T());
+                Console.WriteLine("Omkretsen är =" + triangle.TO());
 
 
             }
 
             
+            else if (val == 4)
+            {
+                Console.WriteLine("liksidig");
+                Console.WriteLine("Rätviklig");
+                Console.WriteLine("Hur lång är en av sidorna");
+                float width = float.Parse(Console.ReadLine());
+                triangle triangle = new triangle(width, width);
+                Console.WriteLine("Arean av Triangle = " + triangle.TOAC());
+                Console.WriteLine("Omkretsen är =" + triangle.TOO());
+
+            }
+            
+            
+
+            }
+
+            }
+
+            }
 
 
- 
-else if (val == 2)
-{
-            Console.WriteLine("Omkretsen är =" + rectangle.Ro());
-            Console.WriteLine($"Arean på rectanglen är {rectangle.R()}");
 
 
- 
-}
-
-
-
-}
-    }
-
-
-
-    }
+            
+        
     
+
+        
+
+
+
+
+
+
 
     
