@@ -18,3 +18,13 @@ C:\Users\Admin\Desktop\Uniti-intro-main\arv\obj\Debug\net6.0\refint\arv.dll
 C:\Users\Admin\Desktop\Uniti-intro-main\arv\obj\Debug\net6.0\arv.pdb
 C:\Users\Admin\Desktop\Uniti-intro-main\arv\obj\Debug\net6.0\arv.genruntimeconfig.cache
 C:\Users\Admin\Desktop\Uniti-intro-main\arv\obj\Debug\net6.0\ref\arv.dll
+C:\Users\Admin\Documents\GitHub\arv\bin\Debug\net6.0\arv.exe
+C:\Users\Admin\Documents\GitHub\arv\bin\Debug\net6.0\arv.deps.json
+C:\Users\Admin\Documents\GitHub\arv\bin\Debug\net6.0\arv.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\arv\bin\Debug\net6.0\arv.dll
+C:\Users\Admin\Documents\GitHub\arv\bin\Debug\net6.0\arv.pdb
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\arv.dll
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\refint\arv.dll
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\arv.pdb
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\arv.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\arv\obj\Debug\net6.0\ref\arv.dll

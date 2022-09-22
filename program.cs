@@ -15,7 +15,7 @@ public class program
     public static void Main()
     {
 
-        Shape s;
+        Shape s =null;
         Console.WriteLine("Skriv en höjd");
         float height = float.Parse(Console.ReadLine());
         Console.WriteLine("Skriv en bredd");
@@ -33,23 +33,26 @@ public class program
             if (val == 1)
             {
                 s = new Rectangle(width, height);
-                Console.WriteLine(s.Area());
-                Console.WriteLine(s.Circumference());
             }
             else if (val == 2)
             {
                 s = new triangle(width, height);
+             
+            }
+
+            else{
+                continue;
+            } 
+
                 Console.WriteLine(s.Area());
                 Console.WriteLine(s.Circumference());
-            }
+                
+            
         }
 
 
 
-        s = new triangle(width, height);
-        s = new Rectangle(width, height);
-
-
+    
         /*      int val = 1;
 
               while (val != 0)

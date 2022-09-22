@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\arv\\arv.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\arv\\arv.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\arv\\arv.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\arv\\arv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\arv\\arv.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\arv\\arv.csproj",
         "projectName": "arv",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\arv\\arv.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\arv\\arv.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\arv\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\arv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
