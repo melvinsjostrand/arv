@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using arv;
 
-
-public class Rectangle : Shape
+public class Rectangle : Ishape
 {
-
-
-    public Rectangle(float width, float height) : base(width, height)
+    private float height;
+    private float width;
+    public Rectangle(float width, float height)
     {
 
 
@@ -40,7 +40,7 @@ public class Rectangle : Shape
 
 
 
-    public override float Area()
+    public float Area()
     {
         float Area = width * height;
 
@@ -49,7 +49,7 @@ public class Rectangle : Shape
 
 
 
-    public override float Circumference()
+    public float Circumference()
     {
         float Circumference = ((width * 2) + (height * 2));
         return Circumference;
