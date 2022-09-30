@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace arv
-{
-    public class Sphere
+
+    public class Sphere : Ishape
     {
        
         private float Radie;
@@ -32,4 +31,4 @@ namespace arv
 
 
     }
-}
+

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using arv;
+
 
 public class triangle : Ishape
 {
@@ -19,7 +19,7 @@ public class triangle : Ishape
 
     public float Area()
     {
-
+        Console.WriteLine("width: " + width);
         float Area = (width * height) / 2;
         return Area;
     }

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace arv
-{
-    public interface Ishape
+
+    interface Ishape
 
     {
         
@@ -15,4 +14,3 @@ namespace arv
 
     float Circumference();
     }
-}

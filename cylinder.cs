@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace arv
-{
-    public class Cylinder
+
+    public class Cylinder : Ishape
     {
         private float height;
         private float Radie;
@@ -26,11 +25,11 @@ namespace arv
 
         public float Circumference()
         {
-            float Circumference = ((float)Math.PI * (Radie* Radie)+(float)Math.PI * (Radie * Radie)+((2 * (float)Math.PI * Radie) * height));
+            float Circumference = ((float)Math.PI * (Radie * Radie)+(float)Math.PI * (Radie * Radie)+((2 * (float)Math.PI * Radie) * height));
             return Circumference;
         }
 
 
     }
-}
+
 
