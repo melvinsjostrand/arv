@@ -12,6 +12,8 @@ public class triangle : Ishape
 
     public triangle(float width, float height)
     {
+        this.height = height;
+        this.width = width;
 
     }
 
@@ -19,7 +21,6 @@ public class triangle : Ishape
 
     public float Area()
     {
-        Console.WriteLine("width: " + width);
         float Area = (width * height) / 2;
         return Area;
     }

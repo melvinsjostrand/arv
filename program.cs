@@ -28,7 +28,7 @@ public class program
         while (val != 0)
         {
 
-            Console.WriteLine("Vill du skriva ut en Rectangle skriv 1 och en triangle skriv 2");
+            Console.WriteLine("Skriv 1-5. Rectangle(1),Triangle(2),Circle(3),Cylinder(4) och Sphere(5)");
             val = int.Parse(Console.ReadLine());
 
             if (val == 1)

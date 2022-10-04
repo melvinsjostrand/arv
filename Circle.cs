@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
         public Circle(float Radie)
         {
-
+            this.Radie = Radie;
         }
 
 
