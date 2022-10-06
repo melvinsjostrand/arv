@@ -26,7 +26,7 @@ public class Cylinder : Ishape
 
     public float Circumference()
     {
-        float Circumference = ((float)Math.PI * (Radie * Radie) + (float)Math.PI * (Radie * Radie) + ((2 * (float)Math.PI * Radie) * height));
+        float Circumference = ((float)Math.PI * (Radie + Radie) + (float)Math.PI * (Radie + Radie) + ((2 * Radie) * height));
         return Circumference;
     }
 

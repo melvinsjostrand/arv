@@ -19,7 +19,7 @@ public class program
 
 
         int val = 1;
-       
+
 
 
         while (val != 0)
@@ -29,9 +29,9 @@ public class program
             val = int.Parse(Console.ReadLine());
 
             if (val == 1)
-            {    
+            {
                 Console.WriteLine("Skriv en bredd");
-                float width = float.Parse(Console.ReadLine());    
+                float width = float.Parse(Console.ReadLine());
                 Console.WriteLine("Skriv en höjd");
                 float height = float.Parse(Console.ReadLine());
                 s = new Rectangle(width, height);
